@@ -1,6 +1,6 @@
-import 'package:cadastro_produtos/cadastro_produto.dart';
+import 'package:cadastro_produtos/produto/cadastro_produto.dart';
 import 'package:cadastro_produtos/home/home_page.dart';
-import 'package:cadastro_produtos/lista_produto.dart';
+import 'package:cadastro_produtos/produto/lista_produto.dart';
 import 'package:flutter/material.dart';
 
 void main() {
