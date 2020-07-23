@@ -183,7 +183,9 @@ class _CasdastroProdutoState extends State<CasdastroProduto> {
                 Row(
                   children: <Widget>[
                     RaisedButton.icon(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
                       icon: Icon(Icons.cancel),
                       label: Text('cancelar'),
                     ),
